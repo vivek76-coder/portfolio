@@ -23,11 +23,11 @@ nav ul li {
     list-style: none;
     margin: 0 23px;
 }
-nav ul li a{
+ a {
     color: white;
 }
-nav ul li a:hover{
-    color:rgb(0, 195, 255);
+nav ul li > a:hover {
+    color: rgb(0, 195, 255);
     font-size: 1.09rem;
     font-weight: 500;
     animation-duration: 5;
@@ -39,37 +39,49 @@ nav ul li a:hover{
 section {
     display: flex;
     justify-content: space-around;
-       padding:0%
+    padding: 0%;
 }
 /* for left section */
 .leftsection {
-   
     padding: 15%;
     font-size: 1.5rem;
 }
-h2, h4, h4, span{
+h2,
+h4,
+h4,
+span {
     font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-.rightsection>img {
-    width: 500px;
-    height: 500px;  
-}
-span{
-    color:rgb(161, 101, 218);
-}
-span:hover{
-    color:rgb(161, 101, 218);
-    font-size: 1.9rem;
     font-weight: 900;
-    animation-duration: 15;
+    font-style: normal;
+}
+.rightsection > img {
+    width: 500px;
+    height: 500px;
+}
+span {
+    color: rgb(161, 101, 218);
+    
 }
 /* this section for footer */
-hr{
+hr {
     border: 1px solid blueviolet;
 }
-#footer{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#footer {
+   display: flex;
+   justify-content: space-around;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+div#container2{
+    text-decoration: none;
+    word-spacing: 2dvh;
+    font-size: 2rem;
+    margin:1vh;
+}
+div#container2 > a:hover{
+    color: rgb(136, 104, 15);
+    font-size: 2.1rem;
+    font-weight: 200;
+}
+#container1{
+    margin-top: 1rem;
 }
